@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    
+</head>
+
+<body>
+    <nav>
+        <div class="heading"></div>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <h1>Contact Us</h1>
+    <br>
+    <br>
+    <p>Please let us know if you have a query about the menu or your order using the contact form below</p>
+    <br>
+    <br>
+    <form onsubmit="return false">
+    </form>
+<input type="text" placeholder="Enter your first name" id="firstName" />
+<br><br>
+<input type="text" placeholder="Enter your last name" id="lastName" />
+<br><br>
+<input type="email" placeholder="Enter your email" id="email" />
+<br><br>
+<input type="telephone" placeholder="Enter your telephone number" id="telephone" />
+<br><br>
+<span>What is your question?</span>
+<br>
+<textarea id="question" rows="4"></textarea>
+<br><br>
+<button onclick="sendMessage();">Send Message</button>
+<script src="app.js"></script>
+</body>
+</html>
